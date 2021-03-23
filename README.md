@@ -1,5 +1,5 @@
 # [JavaScript Dice Challange](https://ralucaelisabetar.github.io/dice-chalange/)
- ##### Math.random function is not “random enough” for serious things like cryptograph or anything related to security, but is fair enough to be used in this case.
+ ##### Math.random method is not “random enough” for serious things like cryptograph or anything related to security, but is fair enough to be used in this case.
  ##### Fun little challange for those of you who wants to practice the basics of the Document Object Model. :computer: :dancers:
 ```javascript
 let randomNumber1 = Math.floor(Math.random() * 6) + 1;
