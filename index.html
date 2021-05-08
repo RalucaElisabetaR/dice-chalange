@@ -1,50 +1,45 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Dicee</title>
         <link rel="stylesheet" href="styles.css" />
-        <link
-            href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
-            rel="stylesheet"
-        />
     </head>
+
     <body>
-        <div class="container">
-            <h1>Virtual Dice Roller</h1>
+        <div class="big-container">
+            <div class="container">
+                <h1>Virtual Dice Roller</h1>
 
-            <div class="dice">
-                <p>Dice 1</p>
-                <img class="img1" src="images/dice6.png" />
-            </div>
+                <div class="dice">
+                    <p>Dice 1</p>
+                    <img class="img1" src="images/dice6.png" />
+                </div>
 
-            <div class="dice">
-                <p>Dice 2</p>
-                <img class="img2" src="images/dice6.png" />
+                <div class="dice">
+                    <p>Dice 2</p>
+                    <img class="img2" src="images/dice6.png" />
+                </div>
             </div>
-        </div>
-        <div class="button-container">
-            <button id="new-quote" onClick="refresh(this)">Roll</button>
-        </div>
-        <footer class="fab">
-            Follow Me On
-            <a
-                style="
+            <div class="button-container">
+                <button id="new-quote" onClick="refresh(this)">Roll</button>
+            </div>
+            <footer class="fab">
+                Follow Me On
+                <a style="
                     font-size: 1rem;
                     text-shadow: 1px 0 rgba(65, 33, 33, 0.386);
                     color: #ffef42e4;
                     font-family: 'Gill Sans', 'Gill Sans MT', Calibri,
                         'Trebuchet MS', sans-serif;
-                "
-                href="https://github.com/RalucaElisabetaR"
-            >
-                GitHub</a
-            >
-        </footer>
+                " href="https://github.com/RalucaElisabetaR">
+                    GitHub</a>
+            </footer>
+        </div>
 
         <script src="index.js"></script>
     </body>
 
-    <footer></footer>
 </html>

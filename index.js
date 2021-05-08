@@ -1,7 +1,3 @@
-
-
-
-
 let randomNumber1 = Math.floor(Math.random() * 6) + 1;
 let randomDicePhoto = "images/dice" + randomNumber1 + ".png";
 document.querySelectorAll("img")[0].setAttribute("src", randomDicePhoto);
